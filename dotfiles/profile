@@ -1,0 +1,3 @@
+export DWM_RESOURCES_DIR="$HOME/configs/dwm_resources"
+export PS1="\e[1;33m[\\u@\\H \\W \\@]\\$\e[0;37m "
+startx

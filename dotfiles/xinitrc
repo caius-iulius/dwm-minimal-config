@@ -1,0 +1,8 @@
+setxkbmap it
+xrandr --output default --mode 1366x768
+
+feh --bg-scale $DWM_RESOURCES_DIR/background.jpg
+exec $DWM_RESOURCES_DIR/statusbar.sh &
+exec picom &
+
+exec dwm
