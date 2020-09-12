@@ -4,7 +4,7 @@ set sts=4
 set sw=4
 set et
 
-colorscheme base16-brewer-mod
+colorscheme base16-brewermod
 
 hi Normal guibg=NONE ctermbg=NONE
 hi LineNr guibg=NONE ctermbg=NONE
