@@ -171,8 +171,8 @@ static MouseShortcut mshortcuts[] = {
 
 MouseKey mkeys[] = {
 	/* button               mask            function        argument */
-	{ Button4,              ShiftMask,      kscrollup,      {.i =  mousescrollincrement} },
-	{ Button5,              ShiftMask,      kscrolldown,    {.i =  mousescrollincrement} },
+	{ Button4,              XK_NO_MOD,      kscrollup,      {.i =  mousescrollincrement} },
+	{ Button5,              XK_NO_MOD,      kscrolldown,    {.i =  mousescrollincrement} },
 };
 
 /* Internal keyboard shortcuts. */
