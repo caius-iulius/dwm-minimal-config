@@ -2,7 +2,11 @@ wm -- dwm
 emulatore di terminale -- st
 shell -- ash, bash, o zsh
 panel -- dmenu + custom scripts
+gtk theme -- flat-remix-gtk (da https://github.com/daniruiz/flat-remix-gtk)
+icons -- papirus (da gnome-look.org o https://github.com/PapirusDevelopmentTeam/papirus-icon-theme)
 
+
+lxappearance -- gestisci temi gtk
 feh -- sfondo
 neofetch -- proprietà del sistema
 pfetch -- neofetch più leggero
