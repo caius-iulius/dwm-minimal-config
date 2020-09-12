@@ -1,5 +1,6 @@
 wm -- dwm
-terminale -- st
+emulatore di terminale -- st
+shell -- ash, bash, o zsh
 panel -- dmenu + custom scripts
 
 feh -- sfondo
