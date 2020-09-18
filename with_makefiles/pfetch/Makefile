@@ -8,3 +8,6 @@ install:
 
 uninstall:
 	@rm -f $(DESTDIR)$(PREFIX)/bin/pfetch
+
+clean:
+	@echo clean ok
