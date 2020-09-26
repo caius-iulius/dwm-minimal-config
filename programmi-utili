@@ -1,6 +1,6 @@
 wm -- dwm
 emulatore di terminale -- st
-shell -- ash, bash, o zsh
+shell -- zsh con powerlevel10k
 panel -- dmenu + custom scripts
 gtk theme -- flat-remix-gtk (da https://github.com/daniruiz/flat-remix-gtk)
 icons -- papirus (da gnome-look.org o https://github.com/PapirusDevelopmentTeam/papirus-icon-theme)
