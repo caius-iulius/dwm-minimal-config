@@ -6,7 +6,7 @@ while true; do
     CPU_USAGE="cpu $($DWM_RESOURCES_DIR/cpu.sh)"
     MEM_USAGE="mem $($DWM_RESOURCES_DIR/mem.sh)"
 
-    xsetroot -name "$MEM_USAGE | $CPU_USAGE | $NAME_HOSTNAME | $DATETIME"
+    xsetroot -name " $MEM_USAGE | $CPU_USAGE | $NAME_HOSTNAME | $DATETIME "
     #echo "$MEM_USAGE | $CPU_USAGE | $NAME_HOSTNAME | $DATETIME"
     sleep 1
 done
