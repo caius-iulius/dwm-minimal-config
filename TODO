@@ -9,3 +9,4 @@
 -altro:
     aggiungi batteria, wireless e temperature alla barra di stato
     installa una suite per i media
+    aggiungi un .zshrc base ai dotfiles
