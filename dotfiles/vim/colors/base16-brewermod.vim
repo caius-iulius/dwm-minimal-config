@@ -21,8 +21,8 @@ let s:gui01        = "2e2f30"
 let g:base16_gui01 = "2e2f30"
 let s:gui02        = "515253"
 let g:base16_gui02 = "515253"
-let s:gui03        = "737475"
-let g:base16_gui03 = "737475"
+let s:gui03        = "272727"
+let g:base16_gui03 = "272727"
 let s:gui04        = "959697"
 let g:base16_gui04 = "959697"
 let s:gui05        = "b7b8b9"
@@ -145,7 +145,7 @@ endif
 " Theme setup
 hi clear
 syntax reset
-let g:colors_name = "base16-brewer"
+let g:colors_name = "base16-brewermod"
 
 " Highlighting function
 " Optional variables are attributes and guisp
@@ -191,7 +191,8 @@ call <sid>hi("Folded",        s:gui03, s:gui01, s:cterm03, s:cterm01, "", "")
 call <sid>hi("IncSearch",     s:gui01, s:gui09, s:cterm01, s:cterm09, "none", "")
 call <sid>hi("Italic",        "", "", "", "", "none", "")
 call <sid>hi("Macro",         s:gui08, "", s:cterm08, "", "", "")
-call <sid>hi("MatchParen",    "", s:gui03, "", s:cterm03,  "", "")
+call <sid>hi("MatchParen",    s:gui0A, s:gui00, s:cterm0A,  s:cterm00, "bold", "")
+"call <sid>hi("MatchParen",    "", s:gui03, "", s:cterm03,  "", "")
 call <sid>hi("ModeMsg",       s:gui0B, "", s:cterm0B, "", "", "")
 call <sid>hi("MoreMsg",       s:gui0B, "", s:cterm0B, "", "", "")
 call <sid>hi("Question",      s:gui0D, "", s:cterm0D, "", "", "")
@@ -385,9 +386,9 @@ call <sid>hi("SignifySignChange",  s:gui0D, s:gui01, s:cterm0D, s:cterm01, "", "
 call <sid>hi("SignifySignDelete",  s:gui08, s:gui01, s:cterm08, s:cterm01, "", "")
 
 " Spelling highlighting
-call <sid>hi("SpellBad",     "", "", "", "", "undercurl", s:gui08)
+call <sid>hi("SpellBad",     s:gui08, "", s:cterm08, "", "undercurl", s:gui08)
 call <sid>hi("SpellLocal",   "", "", "", "", "undercurl", s:gui0C)
-call <sid>hi("SpellCap",     "", "", "", "", "undercurl", s:gui0D)
+call <sid>hi("SpellCap",        "", s:gui00, "", s:cterm00, "undercurl", "")
 call <sid>hi("SpellRare",    "", "", "", "", "undercurl", s:gui0E)
 
 " Startify highlighting
